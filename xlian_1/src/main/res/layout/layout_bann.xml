@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent">
+<com.youth.banner.Banner
+    android:id="@+id/bann"
+    android:layout_width="match_parent"
+    android:layout_height="200dp"></com.youth.banner.Banner>
+
+    <RadioGroup
+        android:layout_alignParentBottom="true"
+        android:id="@+id/ra"
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:layout_height="wrap_content">
+        <RadioButton
+            android:id="@+id/btn1"
+            android:gravity="center"
+            android:button="@null"
+            android:layout_width="0dp"
+            android:drawableTop="@drawable/story_icon_new"
+             android:text="最新"
+            android:layout_weight="1"
+            android:layout_height="wrap_content" />
+        <RadioButton
+            android:id="@+id/btn2"
+            android:gravity="center"
+            android:button="@null"
+            android:layout_width="0dp"
+            android:drawableTop="@drawable/story_icon_morning"
+            android:text="叫早"
+            android:layout_weight="1"
+            android:layout_height="wrap_content" />
+        <RadioButton
+            android:id="@+id/btn3"
+            android:gravity="center"
+            android:button="@null"
+            android:layout_width="0dp"
+            android:drawableTop="@drawable/story_icon_classify"
+            android:text="全部"
+            android:layout_weight="1"
+            android:layout_height="wrap_content" />
+        <RadioButton
+            android:id="@+id/btn4"
+            android:gravity="center"
+            android:button="@null"
+            android:layout_width="0dp"
+            android:drawableTop="@drawable/story_icon_sleep"
+            android:text="哄睡"
+            android:layout_weight="1"
+            android:layout_height="wrap_content" />
+    </RadioGroup>
+</LinearLayout>
